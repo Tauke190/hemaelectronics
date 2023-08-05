@@ -1737,8 +1737,12 @@ margin-top: 20px;
 .banner-main .carousel-caption a:hover {
 	background: #000;
 }
-.yellow_bold {color: #ffc221;}
+ 
+.yellow_bold { /*red */
+	color: #FF0000
 
+	;
+	font-style: italic;}
 /** whyschose section **/
 
 .whyschose {
