@@ -1141,8 +1141,9 @@ nav.main-menu {
 	vertical-align: middle;
 }
 
-.main-menu ul>li:nth-child (6) {
-	padding-right: 0px;
+.main-menu ul>li:nth-child (6) 
+{
+	padding-right: 0px;	
 }
 
 .nav>li {
@@ -1740,6 +1741,7 @@ margin-top: 20px;
  
 .yellow_bold { /*red */
 	color: #FF0000
+	
 
 	;
 	font-style: italic;}
@@ -1768,12 +1770,12 @@ margin-top: 20px;
     padding-bottom: 8px;
 }
 .title h2:after {
-	position: relative;
-content: '';
+position: relative;
+/* content: ''; */
 top: 100%;
 width: 110px;
 height: 10px;
-display: block;
+/* display: block; */
 margin: 0 auto;
 background: #000;
 }
